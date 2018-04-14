@@ -1,0 +1,14 @@
+#header{
+  background: linear-gradient(to right, $lightGreen, $green);
+  height: 300px;
+  position: relative;
+  z-index: 1;
+
+  #particles{
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+}

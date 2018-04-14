@@ -1,0 +1,188 @@
+{
+  "body": {
+    "currencies": [
+      {
+        "id": 1,
+        "name": "Bitcoin",
+        "abbrev": "BTC",
+        "marketCap": "220,677,862,055",
+        "price": "13,217.10",
+        "volume": "15,012,700,000",
+        "circulatingSupply": "16,772,050",
+        "change": {
+          "hourly": "2.66",
+          "daily": "-10.37"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Ripple",
+        "abbrev": "XRP",
+        "marketCap": "87,445,789,142",
+        "price": "2.26",
+        "volume": "7,081,457,785",
+        "circulatingSupply": "38,739,144,847",
+        "change": {
+          "hourly": "-2.79",
+          "daily": "17.43"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Ethereum",
+        "abbrev": "ETH",
+        "marketCap": "67,465,418,433",
+        "price": "697.91",
+        "volume": "3,093,640,203",
+        "circulatingSupply": "96,668,390",
+        "change": {
+          "hourly": "1.42",
+          "daily": "-8.06"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Bitcoin Cash",
+        "abbrev": "BCH",
+        "marketCap": "41,153,677,251",
+        "price": "2,437.33",
+        "volume": "1,372,570,000",
+        "circulatingSupply": "16,884,738",
+        "change": {
+          "hourly": "0.98",
+          "daily": "-11.65"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Cardano",
+        "abbrev": "ADA",
+        "marketCap": "16,357,426,137",
+        "price": "0.6309",
+        "volume": "305,313,991",
+        "circulatingSupply": "25,927,070,538",
+        "change": {
+          "hourly": "0.68",
+          "daily": "34.58"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Litecoin",
+        "abbrev": "LTC",
+        "marketCap": "12,123,352,615",
+        "price": "216.50",
+        "volume": "626,351,123",
+        "circulatingSupply": "54,544,458",
+        "change": {
+          "hourly": "0.83",
+          "daily": "-11.80"
+        }
+      },
+      {
+        "id": 7,
+        "name": "IOTA",
+        "abbrev": "MIOTA",
+        "marketCap": "9,877,862,055",
+        "price": "3.62",
+        "volume": "15,012,700,000",
+        "circulatingSupply": "16,772,050",
+        "change": {
+          "hourly": "2.66",
+          "daily": "-10.37"
+        }
+      },
+      {
+        "id": 8,
+        "name": "NEM",
+        "abbrev": "XEM",
+        "marketCap": "8,636,789,142",
+        "price": "0.939714",
+        "volume": "7,081,457,785",
+        "circulatingSupply": "38,739,144,847",
+        "change": {
+          "hourly": "-2.79",
+          "daily": "17.43"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Dash",
+        "abbrev": "DASH",
+        "marketCap": "7,222,444,433",
+        "price": "1,002.92",
+        "volume": "3,093,640,203",
+        "circulatingSupply": "96,668,390",
+        "change": {
+          "hourly": "1.42",
+          "daily": "-8.06"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Stellar",
+        "abbrev": "XLM",
+        "marketCap": "5,234,677,251",
+        "price": "0.336196",
+        "volume": "1,372,570,000",
+        "circulatingSupply": "16,884,738",
+        "change": {
+          "hourly": "-2.23",
+          "daily": "1.25"
+        }
+      },
+      {
+        "id": 11,
+        "name": "Monero",
+        "abbrev": "XMR",
+        "marketCap": "4,153,677,251",
+        "price": "345.23",
+        "volume": "1,372,570,000",
+        "circulatingSupply": "16,884,738",
+        "change": {
+          "hourly": "3.11",
+          "daily": "-1.65"
+        }
+      },
+      {
+        "id": 12,
+        "name": "EOS",
+        "abbrev": "EOS",
+        "marketCap": "4,153,677,251",
+        "price": "8.93",
+        "volume": "4,372,570,000",
+        "circulatingSupply": "16,884,738",
+        "change": {
+          "hourly": "1.28",
+          "daily": "-3.15"
+        }
+      },
+      {
+        "id": 13,
+        "name": "NEO",
+        "abbrev": "NEO",
+        "marketCap": "4,153,677,251",
+        "price": "74.26",
+        "volume": "4,772,570,000",
+        "circulatingSupply": "16,884,738",
+        "change": {
+          "hourly": "5.33",
+          "daily": "12.44"
+        }
+      },
+      {
+        "id": 14,
+        "name": "QTUM",
+        "abbrev": "QTUM",
+        "marketCap": "4,553,677,251",
+        "price": "62.02",
+        "volume": "1,372,570,000",
+        "circulatingSupply": "16,884,738",
+        "change": {
+          "hourly": "9.23",
+          "daily": "11.48"
+        }
+      }
+    ]
+  }
+}

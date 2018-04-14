@@ -1,0 +1,107 @@
+.is-scrolling{
+  #nav-bar{
+    background-color: rgba($gray30, 0.2);
+    box-shadow: $shadow1;
+  }
+}
+
+#nav-bar{
+  height: 40px;
+  left: 0px;
+  padding: 10px 15px;
+  position: fixed;
+  top: 0px;
+  transition: background-color 0.25s;
+  width: calc(100% - 30px);
+  z-index: 10000;
+
+  #nav-bar-brand{
+    display: inline-block;
+    height: 40px;
+    #nav-bar-logo, #nav-bar-name{
+      display: inline-block;
+      height: 30px;
+      margin: 5px 0px;
+      vertical-align: top;
+      
+      h1, i{
+        color: white;
+        height: 30px;
+        line-height: 30px;
+        margin: 0px;
+      }
+  
+      h1{
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.25em;
+        font-weight: 400;
+      }
+  
+      i{
+        font-size: 1.5em;
+      }
+    }
+
+    #nav-bar-name{
+      margin-left: 10px;
+    }
+  }
+
+  #nav-bar-items{
+    height: 40px;
+    margin: 10px 20px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    .nav-bar-item{
+      display: inline-block;
+      height: 40px;
+      margin-left: 20px;
+      overflow: hidden;
+      text-align: right;
+
+      &:last-child{
+        .value{
+          border-right: none;
+          padding-right: 0px;
+        }
+      }
+
+      .value, .label{
+        display: inline-block;
+        height: 12px;
+        margin-top: 14px;
+        vertical-align: top;
+        h1, i{
+          color: white;
+          display: inline-block;
+          font-size: 0.8em;
+          line-height: 12px;
+          margin: 0px;
+          vertical-align: top;
+        }
+      }
+
+      .value{
+        border-right: 1px solid rgba($gray240, 0.4);
+        margin-left: 10px;
+        padding-right: 20px;
+
+        h1{
+          color: $blue;
+        }
+      }
+
+      .label{
+        i{
+          margin-right: 6px;
+        }
+      }
+    }
+
+    #total-market-cap{
+      
+    }
+  }
+}

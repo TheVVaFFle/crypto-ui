@@ -1,0 +1,102 @@
+#currency-details-view-wrapper{
+  background: $gray30;
+  box-shadow: $shadow1;
+  min-height: 100vh;
+  margin-left: 570px;
+  overflow: auto;
+  position: relative;
+  width: calc(100% - 570px);
+  z-index: 3;
+
+  #currency-details-view{
+    background-color: $gray50;
+    border-radius: 2px;
+    box-shadow: $shadow1;
+    height: calc(100% - 160px);
+    margin-left: 80px;
+    margin-top: 80px;
+    padding: 20px;
+    width: 500px;
+
+    #currency-details-header{
+      position: relative;
+
+      h1{
+        font-family: 'Dosis', sans-serif;
+        font-weight: 100;
+        margin: 0px;
+      }
+
+      #currency-details-icon{
+        display: inline-block;
+        vertical-align: top;
+        .icon-image{
+          background-color: white;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 80%;
+          border-radius: 100px;
+          box-shadow: 0px 1px 10px 3px rgba(white, 0.2);
+          height: 50px;
+          transition: transform 0.25s;
+          width: 50px;
+        }
+      }
+
+      #currency-details-name{
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+        vertical-align: top;
+        h1{
+          color: white;
+          height: 30px;
+          line-height: 30px;
+        }
+      }
+
+      #currency-details-abbrev{
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 10px;
+        vertical-align: top;
+        h1{
+          color: $blue;
+          height: 30px;
+          line-height: 30px;
+        }
+      }
+
+      #currency-details-price{
+        display: inline-block;
+        margin-top: 10px;
+        position: absolute;
+        right: 0px;
+        vertical-align: top;
+        top: 0px;
+
+        .value{
+          h1{
+            color: white;
+            height: 30px;
+            line-height: 30px;
+          }
+        }
+
+        .label{
+          h1{
+            color: $blue;
+            font-size: 0.6em;
+            font-weight: 400;
+            height: 10px;
+            line-height: 10px;
+          }
+        }
+      }
+    }
+
+    #currency-body{
+
+    }
+  }
+}

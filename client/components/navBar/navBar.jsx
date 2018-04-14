@@ -1,6 +1,22 @@
 import React from 'react'
 
-const NavBar = ({}) => {
+import {shortFormatCurrency} from '../../util'
+
+const NavBar = ({
+  globalData,
+  isFetchingGlobalData,
+  isErrorFetchingGlobalData
+}) => {
+  let totalMarketCap = '0',
+      totalDailyVolume = '0',
+      btcDominance = '0.00'
+
+  if(globalData){
+    totalMarketCap = globalData.totalMarketCap ? shortFormatCurrency(globalData.totalMarketCap) : '0'
+    totalDailyVolume = globalData.totalDailyVolume ? shortFormatCurrency(globalData.totalDailyVolume) : '0'
+    btcDominance = globalData.btcDominance ? globalData.btcDominance : '0.00'
+  }
+
   return(
     <div id="nav-bar">
       <div id="nav-bar-brand">
@@ -18,7 +34,7 @@ const NavBar = ({}) => {
             <h1>MARKET CAP</h1>
           </div>
           <div className="value">
-            <h1>$563.8B</h1>
+            <h1>{`$${totalMarketCap}`}</h1>
           </div>
         </div>
         <div id="total-24hr-volume" className="nav-bar-item">
@@ -27,7 +43,7 @@ const NavBar = ({}) => {
             <h1>24HR VOL</h1>
           </div>
           <div className="value">
-            <h1>$35.9B</h1>
+            <h1>{`$${totalDailyVolume}`}</h1>
           </div>
         </div>
         <div id="btc-dominance" className="nav-bar-item">
@@ -36,7 +52,7 @@ const NavBar = ({}) => {
             <h1>BTC</h1>
           </div>
           <div className="value">
-            <h1>39.2%</h1>
+            <h1>{`${btcDominance}%`}</h1>
           </div>
         </div>
       </div>

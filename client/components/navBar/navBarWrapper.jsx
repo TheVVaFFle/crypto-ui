@@ -2,9 +2,17 @@ import {connect} from 'react-redux'
 
 import {NavBar} from './navBar'
 
+import {
+  globalDataSelector,
+  isFetchingGlobalDataSelector,
+  isErrorFetchingGlobalDataSelector
+} from '../../selectors/dataSelectors'
+
 const mapStateToProps = state => {
   return {
-    
+    globalData: globalDataSelector(state),
+    isFetchingGlobalData: isFetchingGlobalDataSelector(state),
+    isErrorFetchingGlobalData: isErrorFetchingGlobalDataSelector(state)
   }
 }
 

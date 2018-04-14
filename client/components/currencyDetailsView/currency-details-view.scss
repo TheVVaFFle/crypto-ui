@@ -18,6 +18,10 @@
     padding: 20px;
     width: 500px;
 
+    &.is-transitioning{
+      animation: 0.5s ease-in-out fade-in-scaled;
+    }
+
     #currency-details-header{
       position: relative;
 
